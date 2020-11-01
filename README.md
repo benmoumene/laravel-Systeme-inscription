@@ -1,78 +1,69 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Tentang SIHER
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+SIHER adalah Aplikasi berbasi web yang di berguna untuk melakukan heregistrasi mahasiswa secara online dan saat ini SIHER mengikuti konsep Heregistrasi kampus [STMIK Pelita Nusantara](http://siakad.penusa.ac.id/) dengan beberapa fitur yang dimiliki
 
-## About Laravel
+- Multilevel Login [Admin, Operator, Mahasiswa]
+- Penambahan Operator melalui Admin
+- Penambahan Mahasiswa melalui Admin dan Operator
+- Upload document KHS, KRS, Cicilan Uang Kuliah
+- Cetak Kartu Hasil
+- Simpan Document KHS, KRS, dan UK
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Dan akan dikembangkan lebih lagi
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Komponen SIHER
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Laravel 7
+- Bootstrap 5
 
-## Learning Laravel
+Silahkan baca buku manual seputar Laravel maupun Bootstrap untuk info lebih lanjut
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Screenshots
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Auth Page**
+![Screenshot (87)](https://user-images.githubusercontent.com/46182403/97806035-35e2fe80-1c8c-11eb-8d97-31e3db12924c.png)
 
-## Laravel Sponsors
+![Screenshot (88)](https://user-images.githubusercontent.com/46182403/97806052-472c0b00-1c8c-11eb-880c-0183e6e92f61.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+**Admin Page**
+![Screenshot (77)](https://user-images.githubusercontent.com/46182403/97806065-557a2700-1c8c-11eb-87a9-f9af129054c6.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+![Screenshot (78)](https://user-images.githubusercontent.com/46182403/97806100-7773a980-1c8c-11eb-8ea3-ba31609b93b3.png)
 
-## Contributing
+**Operator Page**
+![Screenshot (73)](https://user-images.githubusercontent.com/46182403/97806188-fd8ff000-1c8c-11eb-88f2-32575bb63519.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Screenshot (79)](https://user-images.githubusercontent.com/46182403/97806148-c6214380-1c8c-11eb-806c-9c371f73c236.png)
 
-## Code of Conduct
+**Mahasiswa Page**
+![Screenshot (80)](https://user-images.githubusercontent.com/46182403/97806214-1d271880-1c8d-11eb-8cdf-1545ba3e6a21.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![Screenshot (81)](https://user-images.githubusercontent.com/46182403/97806223-26b08080-1c8d-11eb-876a-6f7d318a21a0.png)
 
-## Security Vulnerabilities
+![Screenshot (82)](https://user-images.githubusercontent.com/46182403/97806228-2dd78e80-1c8d-11eb-8175-d502ab85158d.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Screenshot (84)](https://user-images.githubusercontent.com/46182403/97806241-3760f680-1c8d-11eb-8c58-587bbddf12d6.png)
 
-## License
+![Screenshot (83)](https://user-images.githubusercontent.com/46182403/97806246-421b8b80-1c8d-11eb-9345-c9458fa9aa66.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Langkah Instalasi
+
+Sebelumnya pastikan kamu sudah memasang [composer](https://getcomposer.org/) dan [git](https://git-scm.com/) pada komputer kamu
+
+1. Download File
+`git clone https://github.com/rickyginting/siher.git`
+
+2. Update Composer
+`composer update`
+
+3. Ubah env menjadi .env
+4. Buat database db_siher
+5. Jalankan migrate
+`php artisan migrate`
+
+6. Factory untuk membuat akun admin
+`php artisan tinker
+factory('App\User',1)->create()`
+
+7. Jalankan local server
+`php artisan serve`
