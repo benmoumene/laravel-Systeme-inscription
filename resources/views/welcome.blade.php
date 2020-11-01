@@ -11,7 +11,7 @@
                         <img src="{{asset('images/logo.png')}}" height="48" class='mb-4'>
                         <hr>
                     </div>
-                    Sistem Heregistrasi Online Mahasiswa adalah sebuah aplikasi web yang ditujukan untuk
+                    SIHER - Sistem Heregistrasi Mahasiswa Online adalah sebuah aplikasi web yang ditujukan untuk
                     mempermudah mahasiswa/i dalam melakukan heregistrasi. Dengan mendapatkan data diri seperti
                     Biodata mahasiswa dan Document pendukung. Sistem ini bersifat open source
 
